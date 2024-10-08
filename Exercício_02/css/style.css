@@ -1,0 +1,32 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.box-information {
+  background: #111111;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px 15px 20px 15px;
+}
+
+h1 {
+  color: #111;
+  text-align: center;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+span {
+  color: #febe01;
+}
+
+a {
+  text-decoration: none;
+  color: #332200;
+  background-color: #febe01;
+  padding: 7.5px 15px;
+  border-radius: 4px;
+}
