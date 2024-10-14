@@ -40,4 +40,8 @@ console.log(multiploDeDois(6));
 
 // Crie uma função que retorne o tipo de dado do argumento passado nela (typeof)
 
-// addEventListener é uma função nativa do JavaScript o primeiro parâmetro é o evento que ocorre e o segundo o Callbach
+function tipoDeDado(dado) {
+  return typeof dado;
+}
+
+console.log(tipoDeDado(20));
