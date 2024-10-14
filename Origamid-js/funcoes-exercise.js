@@ -21,22 +21,22 @@ console.log(perimetro(10));
 
 // Crie uma função que retorne o seu nome completo ela deve possuir os parâmetros: nome e sobrenome
 
-// function nomeCompleto(nome, sobrenome) {
-//   return nome + sobrenome;
-// }
+function nomeCompleto(nome, sobrenome) {
+  return nome + " " + sobrenome;
+}
 
-// console.log(nomeCompleto("Jeferson", "Beckmann"));
+console.log(nomeCompleto("Jeferson", "Beckmann"));
 
 // // Crie uma função que verifica se um número é par
-// function multiploDeDois(teste) {
-//   if (teste % 2 === 0) {
-//     return "É par";
-//   } else {
-//     return "É ímpar";
-//   }
-// }
+function multiploDeDois(teste) {
+  if (teste % 2 === 0) {
+    return "É par";
+  } else {
+    return "É ímpar";
+  }
+}
 
-// console.log(multiploDeDois(6));
+console.log(multiploDeDois(6));
 
 // Crie uma função que retorne o tipo de dado do argumento passado nela (typeof)
 
